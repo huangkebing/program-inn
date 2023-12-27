@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-mermaidjs": "^1.9.1",
+    "vuepress-plugin-right-anchor": "^0.5.5"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
