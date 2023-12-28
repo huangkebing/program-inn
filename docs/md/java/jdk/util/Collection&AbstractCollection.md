@@ -7,7 +7,7 @@ excerpt: JDK源码集合系列 Collection接口和AbstractCollection抽象类源
 
 Collection接口是Java集合框架的基本接口，它代表着一组对象的集合。List、Set和Queue均继承自Collection
 
-![AbstractCollection](../../../images/AbstractCollection.png)
+![AbstractCollection](../../../../images/java/jdk/AbstractCollection.png)
 
 通过继承树，可以看到
 

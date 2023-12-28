@@ -221,7 +221,7 @@ class Solution {
 
 假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
 
-![img](../../../images/offer07.jpg)
+![img](../../../images/algorithm/leetcode/offer07.jpg)
 
 ```
 示例 1:
@@ -507,7 +507,7 @@ class Solution {
 
 例如，在下面的 3×4 的矩阵中包含单词 "ABCCED"（单词中的字母已标出）。
 
-![img](../../../images/offer12.jpg)
+![img](../../../images/algorithm/leetcode/offer12.jpg)
 
 ```
 示例 1：
@@ -897,7 +897,7 @@ public class Solution {
 
 快速幂算法的基本思想是，将指数 n 认为是 2 进行二进制拆分，将底数不断平方，而每次将指数除以 2，这样可以在指数 n 的二进制表示中快速找到每一位对应的幂，从而得出最终的结果。这个算法的时间复杂度为 O(log n)。在计算机科学的一些场景中，比如密码学、图论、高精度运算等，快速幂都得到了广泛的应用。
 
-![image-20230523102430634](../../../images/offer16.png)
+![image-20230523102430634](../../../images/algorithm/leetcode/offer16.png)
 
 {% endnote %}
 

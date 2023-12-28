@@ -904,7 +904,7 @@ class Solution {
 - `NumMatrix(int[][] matrix)` 给定整数矩阵 `matrix` 进行初始化
 - `int sumRegion(int row1, int col1, int row2, int col2)` 返回左上角 `(row1, col1)` 、右下角 `(row2, col2)` 的子矩阵的元素总和。
 
-<img src="../../../images/LCR13.png" alt="img" style="zoom:50%;" />
+<img src="../../../images/algorithm/leetcode/LCR13.png" alt="img" style="zoom:50%;" />
 
 ```
 示例 1：

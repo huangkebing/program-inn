@@ -7,7 +7,7 @@ excerpt: JDK源码集合系列 ArrayList源码阅读
 
 ArrayList是一个基于数组实现的动态数组，是Java集合框架中的一部分。它可以自动扩容来适应元素的增加，也支持随机访问、插入、删除等操作。与普通的数组相比，ArrayList更加灵活，可以在任意位置插入或删除元素，同时还提供了很多高级功能，如排序、查找等。ArrayList还可以存储任意类型的对象，包括基本类型的值，因此它被广泛应用于各种应用程序中，如Web应用、桌面应用等。总之，ArrayList是Java集合框架中的一个重要组件，可以方便地处理大量数据和对象。
 
-![ArrayList](../../../images/ArrayList.png)
+![ArrayList](../../../../images/java/jdk/ArrayList.png)
 
 ArrayList直接实现了4个接口，继承了AbstractList抽象类
 

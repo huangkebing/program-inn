@@ -7,7 +7,7 @@ excerpt: JDK源码集合系列 List接口和AbstractList抽象类源码阅读
 
 List接口在Collection的基础上，定义了List独有的方法，也是List的特性
 
-![ArrayList](../../../.vuepress/public/images/AbstractList.png)
+![ArrayList](../../../../images/java/jdk/AbstractList.png)
 通过继承树，可以看到
 
 - List继承了[Collection](https://www.huangkebing.com/blogs/JDK8/util/Collection&AbstractCollection.html)

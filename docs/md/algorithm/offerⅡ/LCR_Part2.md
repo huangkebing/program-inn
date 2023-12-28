@@ -94,7 +94,7 @@ class Solution {
 
 
 
-![img](../../../images/LCR22.png)
+![img](../../../images/algorithm/leetcode/LCR22.png)
 
 **提示：**
 
@@ -660,7 +660,7 @@ class Solution {
 
 如果列表为空（给定的节点是 `null`），需要创建一个循环有序列表并返回这个节点。否则。请返回原先给定的节点。
 
-![img](../../../images/example_1_before_65p.jpg) ![img](../../../images/example_1_after_65p.jpg)
+![img](../../../images/algorithm/leetcode/example_1_before_65p.jpg) ![img](../../../images/algorithm/leetcode/example_1_after_65p.jpg)
 
 ```
 示例 1：
@@ -1522,7 +1522,7 @@ class Solution {
 
 求在该柱状图中，能够勾勒出来的矩形的最大面积。
 
-![img](../../../images/LCR39.jpg)
+![img](../../../images/algorithm/leetcode/LCR39.jpg)
 
 ```
 示例 1:

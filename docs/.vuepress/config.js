@@ -1,7 +1,7 @@
 module.exports = {
     port: "8080",
     dest: ".site",
-    base: "/program-inn/",
+    base: "/",
     markdown: {
         lineNumbers: true,
         externalLinks: {
