@@ -25,7 +25,7 @@ module.exports = {
         ['vuepress-plugin-right-anchor', {
             showDepth: 3,
             ignore: ['/'],
-            expand: {trigger: 'click', clickModeDefaultOpen: true},
+            expand: {trigger: 'click', clickModeDefaultOpen: false},
             customClass: 'customClass',
         }]
     ],
@@ -56,8 +56,8 @@ module.exports = {
                         link: '/md/spring/develop-spring/2021-05-16-第1章：blogs.md'
                     },
                     {
-                        text: 'Mybatis 手撸专栏',
-                        link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
+                        text: 'spring framework源码',
+                        link: '/md/spring/spring-framework-code/BeanDefinition/2023-11-24-1-BeanDefinition概述.md'
                     },
                     {
                         text: 'Spring Cloud',
@@ -97,8 +97,10 @@ module.exports = {
         ],
         sidebar: {
             "/md/java/jvm/": getBarJavaJvm(),
+            "/md/spring/spring-framework-code/": getBarSpringFrameworkCode(),
             "/md/utils/": getBarUtils(),
-        }
+        },
+        lastUpdated: '更新时间'
     }
 };
 
@@ -110,6 +112,28 @@ function getBarJavaJvm(){
             sidebarDepth: 0,
             children: [
                 "2023-05-26-1-JVM概览.md",
+            ]
+        },
+    ]
+}
+
+function getBarSpringFrameworkCode(){
+    return [
+        {
+            title: "BeanDefinition篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "BeanDefinition/2023-11-24-1-BeanDefinition概述.md",
+            ]
+        },
+        {
+            title: "BeanFactory篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "BeanFactory/2023-11-28-1-BeanFactory概述.md",
+                "BeanFactory/2023-12-28-2-AliasRegistry.md"
             ]
         },
     ]
