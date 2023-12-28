@@ -1,19 +1,15 @@
 ---
-title: 初识Spring Cloud
-date: 2023-08-18 17:24:12
-categories: [spring, spring cloud]
-excerpt: 尝试使用Spring Cloud Netflix，记录一下感想
+title: Spring Cloud尝试
 ---
+# Spring Cloud尝试
 
 因为Spring Cloud `2022.0.4`版本需要依赖Spring Boot`3.0.9`，而目前更多使用的是Spring Boot 2.x版本
 
 所以这里Spring Cloud版本选用`2021.0.8`，相对应的跟据官方文档，Spring Boot版本选用`2.6.15`，
 
-{% note success %}
-
+::: tip
 这里Spring Cloud版本号有个命名变更，之前是使用A-Z的伦敦地铁站命名如：`Hoxton.SR1`，而从2020年开始命名改为日期格式如：`2020.0.0-M1`
-
-{% endnote %}
+:::
 
 ## 一、概念理解
 
@@ -93,7 +89,7 @@ client同样简单，也只需要一个jar包
 
 在client中随便写一个简单接口用作模拟服务提供者，在云服务器和本地分别启动一个实例来模拟集群，再去eureka控制台查看：
 
-![eureka-client](../../../images/eureka-client.jpg)
+![eureka-client](../../../images/spring/spring-cloud/eureka-client.jpg)
 
 可以看到服务已经注册到了eureka中，且有启动的两个实例
 

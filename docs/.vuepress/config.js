@@ -36,15 +36,15 @@ module.exports = {
                 items: [
                     {
                         text: '容器',
-                        link: '/md/java/interview/2020-07-28-面经手册 · 开篇《面试官都问我啥》.md'
+                        link: ''
+                    },
+                    {
+                        text: '并发',
+                        link: ''
                     },
                     {
                         text: 'JVM',
                         link: '/md/java/jvm/2023-05-26-1-JVM概览.md'
-                    },
-                    {
-                        text: '基础技术',
-                        link: '/md/java/core/2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md'
                     }
                 ]
             },
@@ -52,8 +52,8 @@ module.exports = {
                 text: 'Spring',
                 items: [
                     {
-                        text: 'Spring 手撸专栏',
-                        link: '/md/spring/develop-spring/2021-05-16-第1章：blogs.md'
+                        text: 'spring framework',
+                        link: '/md/spring/spring-framework/2023-11-14-1-前言&环境构建.md'
                     },
                     {
                         text: 'spring framework源码',
@@ -61,11 +61,7 @@ module.exports = {
                     },
                     {
                         text: 'Spring Cloud',
-                        link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
-                    },
-                    {
-                        text: '源码分析(Mybatis、Quartz)',
-                        link: '/md/spring/source-code/2019-12-25-[源码分析]Mybatis接口没有实现类为什么可以执行增删改查.md'
+                        link: '/md/spring/spring-cloud/2023-08-18-1-SpringCloud尝试.md'
                     }
                 ]
             },
@@ -73,16 +69,25 @@ module.exports = {
                 text: '算法',
                 items: [
                     {
-                        text: '数据结构',
-                        link: '/md/algorithm/data-structures/data-structures.md'
+                        text: '剑指offer系列',
+                        link: ''
                     },
                     {
-                        text: '算法主题',
-                        link: '/md/algorithm/logic/math/math.md'
+                        text: '剑指offerⅡ系列',
+                        link: ''
                     },
                     {
-                        text: '机器学习',
-                        link: '/md/algorithm/model/2023-02-12-chat-gpt.md'
+                        text: '专项系列',
+                        link: ''
+                    }
+                ]
+            },
+            {
+                text: '基础巩固',
+                items: [
+                    {
+                        text: '计算机网络',
+                        link: ''
                     }
                 ]
             },
@@ -97,7 +102,9 @@ module.exports = {
         ],
         sidebar: {
             "/md/java/jvm/": getBarJavaJvm(),
+            "/md/spring/spring-framework/": getBarSpringFramework(),
             "/md/spring/spring-framework-code/": getBarSpringFrameworkCode(),
+            "/md/spring/spring-cloud/": getBarSpringCloud(),
             "/md/utils/": getBarUtils(),
         },
         lastUpdated: '更新时间'
@@ -112,6 +119,20 @@ function getBarJavaJvm(){
             sidebarDepth: 0,
             children: [
                 "2023-05-26-1-JVM概览.md",
+            ]
+        },
+    ]
+}
+
+function getBarSpringFramework(){
+    return [
+        {
+            title: "spring framework",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-11-14-1-前言&环境构建.md",
+                "2023-11-15-2-IoC概念容器和bean定义.md"
             ]
         },
     ]
@@ -136,6 +157,19 @@ function getBarSpringFrameworkCode(){
                 "BeanFactory/2023-12-28-2-AliasRegistry.md"
             ]
         },
+    ]
+}
+
+function getBarSpringCloud(){
+    return [
+        {
+            title: "Spring Cloud系列",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-18-1-SpringCloud尝试.md",
+            ]
+        }
     ]
 }
 
