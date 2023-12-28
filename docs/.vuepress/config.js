@@ -40,7 +40,7 @@ module.exports = {
                     },
                     {
                         text: '并发',
-                        link: ''
+                        link: '/md/java/thread/2023-12-28-1-并发的基本概念.md'
                     },
                     {
                         text: 'JVM',
@@ -101,6 +101,7 @@ module.exports = {
             }
         ],
         sidebar: {
+            "/md/java/thread/": getBarJavaThread(),
             "/md/java/jvm/": getBarJavaJvm(),
             "/md/spring/spring-framework/": getBarSpringFramework(),
             "/md/spring/spring-framework-code/": getBarSpringFrameworkCode(),
@@ -110,6 +111,19 @@ module.exports = {
         lastUpdated: '更新时间'
     }
 };
+
+function getBarJavaThread(){
+    return [
+        {
+            title: "并发系列",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-12-28-1-并发的基本概念.md",
+            ]
+        },
+    ]
+}
 
 function getBarJavaJvm(){
     return [
