@@ -16,7 +16,7 @@ module.exports = {
         }
     },
     head: [
-        ["link", {rel: "icon", href: `/favicon.ico`}]
+        ["link", {rel: "icon", href: `/images/system/favicon.ico`}]
     ],
     plugins: [
         ['@vuepress/medium-zoom', {selector: 'img:not(.nozoom)', options: {margin: 16}}],
@@ -31,6 +31,10 @@ module.exports = {
     ],
     themeConfig: {
         nav: [
+            {
+                text: '导读',
+                link: '/md/guide/2024-01-01-1-guide.md'
+            },
             {
                 text: 'Java',
                 items: [
@@ -78,7 +82,7 @@ module.exports = {
                     },
                     {
                         text: '专项系列',
-                        link: ''
+                        link: '/md/algorithm/point/2023-06-13-1-排序专项.md'
                     }
                 ]
             },
@@ -106,6 +110,7 @@ module.exports = {
             "/md/spring/spring-framework/": getBarSpringFramework(),
             "/md/spring/spring-framework-code/": getBarSpringFrameworkCode(),
             "/md/spring/spring-cloud/": getBarSpringCloud(),
+            "/md/algorithm/point/": getBarAlgorithmPoint(),
             "/md/utils/": getBarUtils(),
         },
         lastUpdated: '更新时间'
@@ -184,6 +189,18 @@ function getBarSpringCloud(){
                 "2023-08-18-1-SpringCloud尝试.md",
             ]
         }
+    ]
+}
+
+function getBarAlgorithmPoint(){
+    return [{
+        title: "算法专项",
+        collapsable: false,
+        sidebarDepth: 0,
+        children: [
+            "2023-06-13-1-排序专项.md",
+            "2023-08-14-2-位运算专项.md"
+        ]}
     ]
 }
 
