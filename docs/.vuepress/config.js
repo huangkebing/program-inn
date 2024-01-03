@@ -78,7 +78,7 @@ module.exports = {
                     },
                     {
                         text: '剑指offerⅡ系列',
-                        link: ''
+                        link: '/md/algorithm/offer2/2023-08-02-1-剑指offer2.md'
                     },
                     {
                         text: '专项系列',
@@ -111,6 +111,7 @@ module.exports = {
             "/md/spring/spring-framework-code/": getBarSpringFrameworkCode(),
             "/md/spring/spring-cloud/": getBarSpringCloud(),
             "/md/algorithm/offer/": getBarAlgorithmOffer(),
+            "/md/algorithm/offer2/": getBarAlgorithmOfferTwo(),
             "/md/algorithm/point/": getBarAlgorithmPoint(),
             "/md/utils/": getBarUtils(),
         },
@@ -206,6 +207,21 @@ function getBarAlgorithmOffer(){
             "2023-06-25-5-剑指offer.md",
             "2023-07-05-6-剑指offer.md",
             "2023-07-17-7-剑指offer.md"
+        ]}
+    ]
+}
+
+function getBarAlgorithmOfferTwo(){
+    return [{
+        title: "剑指offerⅡ系列",
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+            "2023-08-02-1-剑指offer2.md",
+            "2023-08-16-2-剑指offer2.md",
+            "2023-09-05-3-剑指offer2.md",
+            "2023-09-23-4-剑指offer2.md",
+            "2023-10-25-5-剑指offer2.md"
         ]}
     ]
 }
