@@ -48,7 +48,7 @@ module.exports = {
                     },
                     {
                         text: 'JVM',
-                        link: '/md/java/jvm/2023-05-26-1-JVM概览.md'
+                        link: '/md/java/jvm/2023-05-26-1-走近Java.md'
                     }
                 ]
             },
@@ -135,11 +135,19 @@ function getBarJavaThread(){
 function getBarJavaJvm(){
     return [
         {
-            title: "概览",
+            title: "走近Java",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-05-26-1-JVM概览.md",
+                "2023-05-26-1-走近Java.md",
+            ]
+        },
+        {
+            title: "自动内存管理",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2024-01-03-2-Java内存区域与内存溢出异常.md",
             ]
         },
     ]
