@@ -148,6 +148,7 @@ function getBarJavaJvm(){
             sidebarDepth: 0,
             children: [
                 "2024-01-03-2-Java内存区域与内存溢出异常.md",
+                "2024-01-19-3-垃圾收集器与内存分配策略.md"
             ]
         },
     ]
