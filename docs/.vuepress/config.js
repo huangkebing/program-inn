@@ -153,6 +153,14 @@ function getBarJavaJvm(){
                 "2024-02-19-5-调优案例分析与实战.md"
             ]
         },
+        {
+            title: "虚拟机执行子系统",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2024-02-19-6-类文件结构.md",
+            ]
+        }
     ]
 }
 
