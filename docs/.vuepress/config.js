@@ -159,6 +159,7 @@ function getBarJavaJvm(){
             sidebarDepth: 0,
             children: [
                 "2024-02-19-6-类文件结构.md",
+                "2024-02-21-7-虚拟机类加载机制.md",
             ]
         }
     ]
