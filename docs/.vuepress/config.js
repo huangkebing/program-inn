@@ -170,6 +170,15 @@ function getBarJavaJvm(){
             sidebarDepth: 0,
             children: [
                 "2024-02-27-10-前端编译与优化.md",
+                "2024-02-27-11-后端编译与优化.md"
+            ]
+        },
+        {
+            title: "高效开发",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2024-02-27-12-Java内存模型与线程.md",
             ]
         }
     ]
