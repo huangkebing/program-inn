@@ -163,6 +163,14 @@ function getBarJavaJvm(){
                 "2024-02-26-8-虚拟机字节码执行引擎.md",
                 "2024-02-27-9-类加载及执行子系统的案例与实战.md"
             ]
+        },
+        {
+            title: "程序编译与代码优化",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2024-02-27-10-前端编译与优化.md",
+            ]
         }
     ]
 }
