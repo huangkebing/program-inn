@@ -179,6 +179,15 @@ function getBarJavaJvm(){
             sidebarDepth: 0,
             children: [
                 "2024-02-27-12-Java内存模型与线程.md",
+                "2024-02-27-13-线程安全与锁优化.md"
+            ]
+        },
+        {
+            title: "实战篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2024-02-28-01-字节码实战.md",
             ]
         }
     ]
